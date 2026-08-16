@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Owners | GB Construction</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;family=Montserrat:wght@700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "on-background": "#1b1c1c",
+                        "secondary": "#5f5e5e",
+                        "surface-container-high": "#e9e8e7",
+                        "on-primary-container": "#623200",
+                        "on-secondary": "#ffffff",
+                        "surface-tint": "#904d00",
+                        "secondary-fixed": "#e5e2e1",
+                        "on-primary-fixed": "#2f1500",
+                        "surface-dim": "#dbdad9",
+                        "inverse-surface": "#303031",
+                        "on-surface": "#1b1c1c",
+                        "outline": "#897362",
+                        "surface-container-highest": "#e3e2e2",
+                        "surface-container": "#efeded",
+                        "tertiary-container": "#a9aaaa",
+                        "surface-container-lowest": "#ffffff",
+                        "on-tertiary-container": "#3d3f3f",
+                        "on-error": "#ffffff",
+                        "primary-container": "#ff8c00",
+                        "on-primary-fixed-variant": "#6e3900",
+                        "on-secondary-fixed": "#1c1b1b",
+                        "primary": "#904d00",
+                        "surface-container-low": "#f5f3f3",
+                        "on-secondary-container": "#636262",
+                        "on-secondary-fixed-variant": "#474746",
+                        "on-tertiary": "#ffffff",
+                        "inverse-primary": "#ffb77d",
+                        "tertiary": "#5d5f5f",
+                        "tertiary-fixed-dim": "#c6c6c7",
+                        "outline-variant": "#ddc1ae",
+                        "surface": "#fbf9f9",
+                        "primary-fixed-dim": "#ffb77d",
+                        "tertiary-fixed": "#e2e2e2",
+                        "error-container": "#ffdad6",
+                        "surface-variant": "#e3e2e2",
+                        "primary-fixed": "#ffdcc3",
+                        "secondary-container": "#e2dfde",
+                        "secondary-fixed-dim": "#c8c6c5",
+                        "background": "#fbf9f9",
+                        "inverse-on-surface": "#f2f0f0",
+                        "on-error-container": "#93000a",
+                        "on-surface-variant": "#564334",
+                        "on-tertiary-fixed": "#1a1c1c",
+                        "on-tertiary-fixed-variant": "#454747",
+                        "on-primary": "#ffffff",
+                        "error": "#ba1a1a",
+                        "surface-bright": "#fbf9f9"
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    spacing: {
+                        "margin-desktop": "64px",
+                        "gutter": "24px",
+                        "unit-16": "64px",
+                        "unit-4": "16px",
+                        "unit-1": "4px",
+                        "unit-6": "24px",
+                        "base": "4px",
+                        "unit-12": "48px",
+                        "margin-mobile": "16px",
+                        "unit-8": "32px",
+                        "unit-2": "8px"
+                    },
+                    fontFamily: {
+                        "body-lg": ["Inter"],
+                        "headline-lg-mobile": ["Montserrat"],
+                        "label-sm": ["Inter"],
+                        "body-md": ["Inter"],
+                        "headline-lg": ["Montserrat"],
+                        "headline-md": ["Montserrat"],
+                        "label-bold": ["Inter"],
+                        "display": ["Montserrat"]
+                    },
+                    fontSize: {
+                        "body-lg": ["18px", { lineHeight: "1.6", fontWeight: "400" }],
+                        "headline-lg-mobile": ["32px", { lineHeight: "1.2", fontWeight: "800" }],
+                        "label-sm": ["12px", { lineHeight: "1", fontWeight: "500" }],
+                        "body-md": ["16px", { lineHeight: "1.5", fontWeight: "400" }],
+                        "headline-lg": ["40px", { lineHeight: "1.2", letterSpacing: "-0.01em", fontWeight: "800" }],
+                        "headline-md": ["24px", { lineHeight: "1.3", fontWeight: "700" }],
+                        "label-bold": ["14px", { lineHeight: "1", letterSpacing: "0.05em", fontWeight: "700" }],
+                        "display": ["64px", { lineHeight: "1.1", letterSpacing: "-0.02em", fontWeight: "900" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-family: 'Material Symbols Outlined';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 1;
+            letter-spacing: normal;
+            text-transform: none;
+            display: inline-block;
+            white-space: nowrap;
+            word-wrap: normal;
+            direction: ltr;
+            -webkit-font-feature-settings: 'liga';
+            -webkit-font-smoothing: antialiased;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md antialiased min-h-screen flex flex-col">
+<!-- TopNavBar -->
+<nav class="w-full top-0 sticky bg-surface border-b-2 border-on-background z-50">
+<div class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop h-20 max-w-[1440px] mx-auto">
+<a class="font-display text-headline-md font-black text-on-surface tracking-tighter hover:scale-95 transition-transform duration-100" href="#">GB CONSTRUCTION</a>
+<div class="hidden md:flex items-center gap-gutter">
+<a class="font-label-bold text-label-bold uppercase tracking-widest text-on-surface hover:text-primary transition-colors hover:bg-surface-container-low px-4 py-2" href="#">Home</a>
+<a class="font-label-bold text-label-bold uppercase tracking-widest text-primary border-b-4 border-primary pb-1 px-4 py-2 hover:bg-surface-container-low scale-95 transition-transform duration-100" href="#">Owners</a>
+<a class="font-label-bold text-label-bold uppercase tracking-widest text-on-surface hover:text-primary transition-colors hover:bg-surface-container-low px-4 py-2" href="#">Portfolio</a>
+<a class="font-label-bold text-label-bold uppercase tracking-widest text-on-surface hover:text-primary transition-colors hover:bg-surface-container-low px-4 py-2" href="#">Services</a>
+</div>
+<button class="hidden md:block bg-primary-container text-on-background font-label-bold text-label-bold uppercase border-b-2 border-on-background px-6 py-3 hover:bg-primary hover:text-on-primary transition-colors">
+                GET A QUOTE
+            </button>
+<!-- Mobile Menu Toggle (Visual Only) -->
+<button class="md:hidden p-2 text-on-surface">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+</div>
+</nav>
+<!-- Main Canvas -->
+<main class="flex-grow w-full max-w-[1440px] mx-auto px-margin-mobile md:px-margin-desktop py-unit-16 flex flex-col gap-unit-16">
+<!-- Header Section -->
+<header class="flex flex-col gap-unit-4 border-l-8 border-primary pl-unit-6 max-w-4xl">
+<h1 class="font-display text-display text-on-background uppercase">Meet the Team</h1>
+<p class="font-body-lg text-body-lg text-secondary max-w-2xl">
+                The foundation of GB Construction isn't just concrete and steel—it's the partnership and vision of our founders. Combining decades of field expertise with a commitment to transparent, reliable service.
+            </p>
+</header>
+<!-- Profiles Section - Bento Grid Style -->
+<section class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<!-- Profile: Ben Paulson -->
+<article class="bg-surface-container-lowest border-2 border-on-background flex flex-col relative group overflow-hidden">
+<div class="h-80 w-full relative border-b-2 border-on-background overflow-hidden">
+<img alt="Ben Paulson Portrait" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 transform group-hover:scale-105" data-alt="Professional portrait of Ben Paulson, a rugged construction founder in a high-vis vest and hard hat, standing confidently on a bright, active job site. Modern brutalist style, high contrast, clean light mode aesthetic, sharp focus, communicating strength and dependability." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCG30eofkmVGbAp05cV2sCYo8X9swG6tAAQkFmiT-iZWqu97wYFkjC2JFNP9xY60bDfXxgCr5v1KzLhGW-5XAHaksfMu6bQpJ3rPNEH_gJC0AcfYr3X4lXP8vZLqWgyFjKui7e0cJhLE2vVIh995RTXhy4ByBo9_i0OAqH5TtokEjmmYX7TQOq7tsvwmrIxdrTnt7yZKnus8TlPm1NVqCRsPTbpnBEU8-GmIwhQ1j3RsWSMR-nSJxtR"/>
+<div class="absolute inset-0 bg-primary/20 mix-blend-multiply opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+</div>
+<div class="p-unit-8 flex flex-col gap-unit-6 bg-surface-container-lowest relative z-10">
+<div>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-background uppercase mb-unit-1">Ben Paulson</h2>
+<span class="inline-block bg-on-background text-on-primary font-label-bold text-label-bold uppercase px-3 py-1">Founder &amp; Site Director</span>
+</div>
+<div class="h-0.5 w-16 bg-primary"></div>
+<p class="font-body-md text-body-md text-secondary">
+                        With over 20 years managing complex commercial builds, Ben brings structural rigor to every project. His philosophy centers on proactive problem-solving and maintaining an unyielding standard for on-site safety. He believes that a well-organized site is the blueprint for a successful build.
+                    </p>
+<div class="mt-auto pt-unit-4 flex gap-unit-4">
+<span class="flex items-center gap-2 text-on-surface-variant font-label-bold text-label-bold">
+<span class="material-symbols-outlined" data-icon="engineering" data-weight="fill" style="font-variation-settings: 'FILL' 1;">engineering</span>
+                            Site Logistics
+                        </span>
+<span class="flex items-center gap-2 text-on-surface-variant font-label-bold text-label-bold">
+<span class="material-symbols-outlined" data-icon="architecture" data-weight="fill" style="font-variation-settings: 'FILL' 1;">architecture</span>
+                            Structural Integrity
+                        </span>
+</div>
+</div>
+<!-- Hover Hard Shadow Element -->
+<div class="absolute inset-0 border-2 border-transparent group-hover:border-primary group-hover:shadow-[4px_4px_0px_0px_#1b1c1c] transition-all duration-200 pointer-events-none z-20"></div>
+</article>
+<!-- Profile: Garrett Grimlar -->
+<article class="bg-surface-container-lowest border-2 border-on-background flex flex-col relative group overflow-hidden">
+<div class="h-80 w-full relative border-b-2 border-on-background overflow-hidden bg-surface-container-highest">
+<img alt="Garrett Grimlar Portrait" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 transform group-hover:scale-105" data-alt="Professional portrait of Garrett Grimlar, a meticulous construction founder holding blueprints, standing in a brightly lit, modern industrial setting. Modern brutalist style, high contrast, clean light mode aesthetic, sharp focus, conveying precise engineering and transparency." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1-u9I8CGGA5QDcGmw-GYQhQJfWPTiAPBm-06HScaxY057JcXp86BgHck-coAoEwYFnRTJKYsRXcT5rsZibPDvEl0f3hGYWqoIBYFmfoBr1YuNjSZHknRAjwCph57uWzk42AL8IBS4LLLMpfbRX8_vm2XHWwZz6PA8OyY3RSUccWHeyNAXZsV8Mwe0UfMBKz6fZbPkm3KG1KK0JiDtMubVxpiw9mD2UGzxtkVZkArSR1D-fWKI1lcC"/>
+<div class="absolute inset-0 bg-primary/20 mix-blend-multiply opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+</div>
+<div class="p-unit-8 flex flex-col gap-unit-6 bg-surface-container-lowest relative z-10">
+<div>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-background uppercase mb-unit-1">Garrett Grimlar</h2>
+<span class="inline-block bg-primary-container text-on-primary-container font-label-bold text-label-bold uppercase px-3 py-1">Founder &amp; Operations Lead</span>
+</div>
+<div class="h-0.5 w-16 bg-on-background"></div>
+<p class="font-body-md text-body-md text-secondary">
+                        Garrett translates client vision into actionable logistics. He champions our "friendly construction" approach—ensuring that complex developments are communicated clearly to stakeholders. His focus is on sustainable procurement and streamlining operational workflows to keep projects on schedule and on budget.
+                    </p>
+<div class="mt-auto pt-unit-4 flex gap-unit-4">
+<span class="flex items-center gap-2 text-on-surface-variant font-label-bold text-label-bold">
+<span class="material-symbols-outlined" data-icon="handshake" data-weight="fill" style="font-variation-settings: 'FILL' 1;">handshake</span>
+                            Client Relations
+                        </span>
+<span class="flex items-center gap-2 text-on-surface-variant font-label-bold text-label-bold">
+<span class="material-symbols-outlined" data-icon="account_tree" data-weight="fill" style="font-variation-settings: 'FILL' 1;">account_tree</span>
+                            Workflow Optimization
+                        </span>
+</div>
+</div>
+<!-- Hover Hard Shadow Element -->
+<div class="absolute inset-0 border-2 border-transparent group-hover:border-primary group-hover:shadow-[4px_4px_0px_0px_#1b1c1c] transition-all duration-200 pointer-events-none z-20"></div>
+</article>
+</section>
+<!-- CTA Section -->
+<section class="mt-unit-12 bg-on-background text-on-primary p-unit-8 md:p-unit-12 flex flex-col md:flex-row items-center justify-between gap-unit-8 border-4 border-primary">
+<div class="max-w-2xl">
+<h3 class="font-headline-md text-headline-md uppercase mb-unit-4 text-primary-fixed">Ready to build?</h3>
+<p class="font-body-md text-body-md text-surface-container">Partner with a team that values structural integrity as much as clear communication.</p>
+</div>
+<button class="bg-primary-container text-on-primary-container font-label-bold text-label-bold uppercase px-8 py-4 border-b-2 border-on-background hover:bg-primary hover:text-on-primary transition-colors whitespace-nowrap shadow-[4px_4px_0px_0px_#ffffff]">
+                START A PROJECT
+            </button>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full mt-unit-16 bg-on-background border-t-4 border-primary">
+<div class="flex flex-col md:flex-row justify-between items-start gap-gutter px-margin-mobile md:px-margin-desktop py-unit-12 max-w-[1440px] mx-auto Transition-opacity duration-300 ease-in-out">
+<div class="flex flex-col gap-unit-4">
+<span class="font-display text-headline-md font-black text-primary uppercase">GB CONSTRUCTION</span>
+<span class="font-body-md text-body-md text-surface-container">© 2024 GB CONSTRUCTION. ALL RIGHTS RESERVED.</span>
+</div>
+<div class="flex flex-col md:flex-row gap-gutter md:gap-unit-8">
+<a class="font-body-md text-body-md text-surface-container hover:text-primary transition-colors hover:underline decoration-2 underline-offset-4" href="#">Privacy Policy</a>
+<a class="font-body-md text-body-md text-surface-container hover:text-primary transition-colors hover:underline decoration-2 underline-offset-4" href="#">Terms of Service</a>
+<a class="font-body-md text-body-md text-surface-container hover:text-primary transition-colors hover:underline decoration-2 underline-offset-4" href="#">Safety Standards</a>
+<a class="font-body-md text-body-md text-surface-container hover:text-primary transition-colors hover:underline decoration-2 underline-offset-4" href="#">Contact Us</a>
+</div>
+</div>
+</footer>
+</body></html>
